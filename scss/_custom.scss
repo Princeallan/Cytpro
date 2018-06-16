@@ -1,13 +1,13 @@
 
 .top-nav {
   background: #383d41;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding-left: 15px;
   width: 100%;
 }
 .top-list {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   list-style: none;
   overflow: hidden;
 
@@ -26,6 +26,7 @@
   list-style: none;
   overflow: hidden;
   float: right;
+  color: #ffffff;
 
   li{
     padding: 10px 15px;
@@ -33,6 +34,9 @@
     color: floralwhite;
     font-size: 14px;
     list-style: none;
+  }
+  a{
+    color: #fff;
   }
 
 }
@@ -64,13 +68,14 @@
 
 /* ShowCase */
 .showcase {
-  background: url('../img/server.jpg');
-  min-height: 450px;
+  background: url('../img/binary.jpg');
+  min-height: 500px;
   color: #ffffff;
 
   .showcase-box {
     padding: 20px 30px;
     margin-top: 30px;
+    margin-bottom: 30px;
     background: $primary;
     color: #ffffff;
     border-top-left-radius: 10px;
