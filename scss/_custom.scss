@@ -68,7 +68,7 @@
 
 /* ShowCase */
 .showcase {
-  background: url('../img/binary.jpg');
+  background: url('../img/server.jpg');
   min-height: 500px;
   color: #ffffff;
 
@@ -80,11 +80,28 @@
     color: #ffffff;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  }
 
-  p{
-    border-bottom: 1px #ccc solid;
-    padding-bottom: 10px;
+    p{
+      border-bottom: 1px #ccc solid;
+      padding-bottom: 10px;
+    }
+  }
+  .showcase-box-bottom{
+    background: $secondary;
+    padding: 10px 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    .pricing span{
+      font-size: 35px;
+      font-weight: bold;
+    }
+    .start-link{
+      padding-top: 20px;
+    }
+    a{
+      color: #ffffff;
+    }
   }
 }
 
