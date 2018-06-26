@@ -1,7 +1,7 @@
 
 .top-nav {
   background: #383d41;
-  margin: 0px;
+  margin: 0;
   padding-left: 15px;
   width: 100%;
 }
@@ -43,6 +43,8 @@
 
 .top-bar{
   color: #ffffff;
+  background-color: rgba(184, 229, 250, 0.5) !important;
+  border: none !important;
 
   span{
     color: lighten($primary, 30%);
@@ -69,7 +71,7 @@
 /* ShowCase */
 .showcase {
   background: url('../img/server.jpg');
-  min-height: 500px;
+  min-height: 650px;
   color: #ffffff;
 
   .showcase-box {
@@ -77,7 +79,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     background: $primary;
-    color: #ffffff;
+    color: #fff555;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
@@ -91,6 +93,7 @@
     padding: 10px 20px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    margin-top: 100px;
 
     .pricing span{
       font-size: 35px;
@@ -104,4 +107,3 @@
     }
   }
 }
-
